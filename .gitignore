@@ -1,0 +1,16 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.DS_Store
+/.quarto/
+
+# project specifc
+maps/
+*.gpx
+*.html
+*.pdf
+data_vis*
+html_example.qmd
+.Rdata
+.httr-oauth

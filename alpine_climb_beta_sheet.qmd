@@ -1,0 +1,168 @@
+---
+title: "Vesper Peak"
+author: "Jenny Smith"
+date: "08/19/2023"
+format: 
+    html:
+        theme: cosmo
+        fontsize: 0.95em
+        linestretch: 1.0
+        embed-resources: true
+execute: 
+  echo: false
+knitr:
+  opts_chunk:
+    comment: "#>"
+    collapse: true
+---
+
+```{css}
+<style>
+li > p:has(+ul) {
+    margin-bottom: 0;
+}
+</style>
+```
+
+::: columns
+::: {.column width="30%"}
+
+# Approach
+
+**Directions:**
+
+-    from Verlot ranger station
+
+-    head west on Mountain Loop highway (17.6 miles)
+
+-    sharp right (south) onto NF-4065/ sunrise mine road
+
+-   continue 2.2 miles until road ends (2300' elevation)
+
+**Route:** Ragged Edge
+
+-   follow sunrise mine trail (#707) SSE. Cross stillguamish river at 1.5mi
+
+-   Follow tributary of river (climbers left) to headlee pass (4650', \~1.0mi)
+
+-   head west into the basin between Vesper (left) Sperry (right)
+
+-   keeping the basin/lake to your right and continue west \~0.5mi (281°) towards a "notch" that leads to vesper glacier.
+
+-   Once past the notch, look to the left for a ledge system to traverse to the climb start
+
+
+# Pitches
+
+### P1
+
+-   45m, 5.6
+-   gear belay at the top of P1 (faint white slab)
+
+### P2
+
+-   25m, 5.7
+-   fixed bolted anchor on skyline
+
+### P3 **crux?**
+
+-   30m, 5.7
+-   keep bolt on your left, travel up arete
+-   gear belay at the top of P3
+
+### P4
+
+-   25m, 5.7
+-   steep stacked blocks on crest
+-   fixed bolted anchor
+
+### P5 **crux**
+
+-  20m, 5.7
+-  Up past 2 bolts
+- **\@2nd bolt** traverse 10-15m right 
+-  requires the most gear; very exposed, but takes gear well.
+
+### P6
+
+-  40m, 5.6 
+-  up arete and hit some heather/vegetation
+-  mix of gear, bolts, and pins for pro
+
+  
+### Bail Options
+-  TBD 
+
+
+# Trip Plan
+
+-   TH at 7am
+-   Follow Sunrise mine TR \~5mi and 3,600' gain. Arrive at ledge (\~4 hrs, ETA 11am)
+-   Navigate to vesper north face ledge at 5800' to set-up climb (\~30 min, ETA 11:30am)
+-   Climb 210m (\~688') across 6 pitches to summit at 6214' (\~4 hrs, ETA 3:30pm)
+-   Summit hangout \~ 15 min
+-   **Descent:** Walk-off descent \~1 hr + trail to car \~2 hrs (ETA 6:45pm at cars)
+
+## Decision Points:
+
+- Drop packs where the walk-off descent meets the notch to the ledge?
+- How busy are the two routes - ragged edge vs true grit? Consider true grit for alternative 
+- **Turn around time: 3:30pm** 
+  - Current Sunrise: 6:02am
+  - Current sunset: 8:23 pm
+
+# Gear
+
+- #.5 - 1 (x2 each)
+- #.2 - .4, 2, 3  (x1 each)
+- set of small nuts (x1 each)
+- **note:** 1m =\~ 3.3ft
+
+:::
+
+::: {.column width="1%"}
+:::
+
+::: {.column width="65%"}
+
+```{r}
+#| fig-width: 6
+#| fig-asp: 0.618
+#| out-width: "70%"
+#| layout-ncol: 1
+
+knitr::include_graphics("assets/approach_peak_bagger.jpg")
+```
+
+```{r}
+#| fig-width: 6
+#| fig-asp: 0.618
+#| out-width: "10%"
+#| out-height: "10%"
+#| layout-ncol: 1
+knitr::include_graphics("assets/approach.jpg")
+```
+
+```{r}
+#| fig-width: 6
+#| fig-asp: 0.618
+#| out-width: "70%"
+#| layout-ncol: 2
+knitr::include_graphics("assets/approach_ledge.jpg")
+
+knitr::include_graphics("assets/approach_ledge2.jpg")
+```
+
+```{r}
+#| fig-width: 6
+#| fig-asp: 0.618
+#| out-width: "10%"
+#| out-height: "10%"
+#| layout-ncol: 1
+knitr::include_graphics("assets/route.jpg")
+
+knitr::include_graphics("assets/route_nwhikers.jpg")
+```
+:::
+
+:::
