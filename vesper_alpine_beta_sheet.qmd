@@ -3,11 +3,7 @@ title: "Vesper Peak"
 author: "Jenny Smith"
 date: "08/19/2023"
 format: 
-    html:
-        theme: cosmo
-        fontsize: 0.95em
-        linestretch: 1.0
-        embed-resources: true
+  pdf: default
 execute: 
   echo: false
 knitr:
@@ -16,47 +12,36 @@ knitr:
     collapse: true
 ---
 
-```{css}
-<style>
-li > p:has(+ul) {
-    margin-bottom: 0;
-}
-</style>
-```
-
 ::: columns
 ::: {.column width="30%"}
-
 # Approach
 
 **Directions:**
 
--    from Verlot ranger station
-
--    head west on Mountain Loop highway (17.6 miles)
-
--    sharp right (south) onto NF-4065/ sunrise mine road
-
+-   from Verlot ranger station
+-   head west on Mountain Loop highway (17.6 miles)
+-   sharp right (south) onto NF-4065/ sunrise mine road
 -   continue 2.2 miles until road ends (2300' elevation)
 
 **Route:** Ragged Edge
 
 -   follow sunrise mine trail (#707) SSE. Cross stillguamish river at 1.5mi
-
 -   Follow tributary of river (climbers left) to headlee pass (4650', \~1.0mi)
-
+-   a bit tricky on boulder section before Headlee Pass
+-   arrow marked on a big rock
 -   head west into the basin between Vesper (left) Sperry (right)
-
 -   keeping the basin/lake to your right and continue west \~0.5mi (281°) towards a "notch" that leads to vesper glacier.
-
 -   Once past the notch, look to the left for a ledge system to traverse to the climb start
-
+  - climb starts on the far right of the ledge, exposed scramble down and around a rock buttress  
 
 # Pitches
+
+**Route finding is the main crux** of the route since the face is slabby/devoid of cracks
 
 ### P1
 
 -   45m, 5.6
+-   route starts after passing the buttress on the ledge on an obvious layback flake
 -   gear belay at the top of P1 (faint white slab)
 
 ### P2
@@ -78,21 +63,24 @@ li > p:has(+ul) {
 
 ### P5 **crux**
 
--  20m, 5.7
--  Up past 2 bolts
-- **\@2nd bolt** traverse 10-15m right 
--  requires the most gear; very exposed, but takes gear well.
+-   20m, 5.7
+-   Up past 2 bolts
+-   **\@2nd bolt** traverse 10-15m right
+-   requires the most gear; very exposed, but takes gear well.
+-   shallow flared cracks, slabby exposure traverse, exposed belay station 
+-   follower can climb down a step or two and back up; making a potential fall less dramatic. 
+-   fixed bolted anchor 
 
 ### P6
 
--  40m, 5.6 
--  up arete and hit some heather/vegetation
--  mix of gear, bolts, and pins for pro
+-   40m, 5.6
+-   up arete and hit some heather/vegetation
+-   mix of gear, bolts, and pins for pro
 
-  
 ### Bail Options
--  TBD 
 
+-   if stuck at 5th pitch, rappelling back down the way we came
+-   venturing off route could be a challenge to bail from, especially if lichen and moss. 
 
 # Trip Plan
 
@@ -103,32 +91,16 @@ li > p:has(+ul) {
 -   Summit hangout \~ 15 min
 -   **Descent:** Walk-off descent \~1 hr + trail to car \~2 hrs (ETA 6:45pm at cars)
 
-## Decision Points:
-
-- Drop packs where the walk-off descent meets the notch to the ledge?
-- How busy are the two routes - ragged edge vs true grit? Consider true grit for alternative 
-- **Turn around time: 3:30pm** 
-  - Current Sunrise: 6:02am
-  - Current sunset: 8:23 pm
-
-# Gear
-
-- #.5 - 1 (x2 each)
-- #.2 - .4, 2, 3  (x1 each)
-- set of small nuts (x1 each)
-- **note:** 1m =\~ 3.3ft
 
 :::
 
-::: {.column width="1%"}
+::: {.column width="2.5%"}
+
 :::
 
 ::: {.column width="65%"}
-
 ```{r}
-#| fig-width: 6
-#| fig-asp: 0.618
-#| out-width: "70%"
+#| fig-pos: 't'
 #| layout-ncol: 1
 
 knitr::include_graphics("assets/approach_peak_bagger.jpg")
@@ -137,17 +109,11 @@ knitr::include_graphics("assets/approach_peak_bagger.jpg")
 ```{r}
 #| fig-width: 6
 #| fig-asp: 0.618
-#| out-width: "10%"
-#| out-height: "10%"
-#| layout-ncol: 1
-knitr::include_graphics("assets/approach.jpg")
-```
-
-```{r}
-#| fig-width: 6
-#| fig-asp: 0.618
 #| out-width: "70%"
-#| layout-ncol: 2
+#| layout: "[[102,68,74]]"
+
+knitr::include_graphics("assets/approach.jpg")
+
 knitr::include_graphics("assets/approach_ledge.jpg")
 
 knitr::include_graphics("assets/approach_ledge2.jpg")
@@ -156,27 +122,50 @@ knitr::include_graphics("assets/approach_ledge2.jpg")
 ```{r}
 #| fig-width: 6
 #| fig-asp: 0.618
-#| out-width: "10%"
-#| out-height: "10%"
-#| layout-ncol: 1
-knitr::include_graphics("assets/route.jpg")
+#| fig-pos: 't'
+#| layout: "[ [105,50], [100] ]"
 
 knitr::include_graphics("assets/route_nwhikers.jpg")
+knitr::include_graphics("assets/fifth_pitch.jpg")
+knitr::include_graphics("assets/route.jpg")
 ```
-:::
 
+## Decision Points:
+
+-   Drop packs where the walk-off descent meets the notch to the ledge?
+-   How busy are the two routes - ragged edge vs true grit? Consider true grit for alternative
+-   **Turn around time: 3:30pm**
+    -   Current Sunrise: 6:02am
+    -   Current sunset: 8:23 pm
+
+## Gear
+
+-   Rock rack
+  - #.5 - 1 (x2 each)
+  -   #.2 - .4, 2, 3 (x1 each)
+  -   set of small nuts (x1 each)
+-   Rope (70m)
+-   **note:** 1m =\~ 3.3ft
+
+:::
 :::
 
 {{< pagebreak >}}
 
+
+
+## Current Conditions (Aug 2023)
+
+-   multiple streams to filter on way down from summit
+-   All bolts, including belay stations, are nice and shiny
+-   No snow on the approach ledges; minimal snow elsewhere.
+-   Little snow was easily navigated in trail runners without traction or ice axes
+
+
+
 # Topo of Route
 
 ```{r}
-#| fig-width: 6
-#| fig-asp: 0.618
-#| out-width: "10%"
-#| out-height: "10%"
-#| layout-ncol: 1
+#| layout: "[75]"
 knitr::include_graphics("assets/caltopo_2.jpg")
 ```
-

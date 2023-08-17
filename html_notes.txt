@@ -1,0 +1,12 @@
+html:
+  theme: cosmo
+page-layout: article
+fontsize: 0.9em
+linestretch: 1.0
+embed-resources: true
+callout-appearance: simple
+
+
+# or try revealjs
+- fontsize
+- slide size
