@@ -26,16 +26,15 @@ li > p:has(+ul) {
 
 ::: columns
 ::: {.column width="30%"}
-
 # Approach
 
 **Directions:**
 
--    from Verlot ranger station
+-   from Verlot ranger station
 
--    head west on Mountain Loop highway (17.6 miles)
+-   head west on Mountain Loop highway (17.6 miles)
 
--    sharp right (south) onto NF-4065/ sunrise mine road
+-   sharp right (south) onto NF-4065/ sunrise mine road
 
 -   continue 2.2 miles until road ends (2300' elevation)
 
@@ -50,7 +49,6 @@ li > p:has(+ul) {
 -   keeping the basin/lake to your right and continue west \~0.5mi (281°) towards a "notch" that leads to vesper glacier.
 
 -   Once past the notch, look to the left for a ledge system to traverse to the climb start
-
 
 # Pitches
 
@@ -78,21 +76,20 @@ li > p:has(+ul) {
 
 ### P5 **crux**
 
--  20m, 5.7
--  Up past 2 bolts
-- **\@2nd bolt** traverse 10-15m right 
--  requires the most gear; very exposed, but takes gear well.
+-   20m, 5.7
+-   Up past 2 bolts
+-   **\@2nd bolt** traverse 10-15m right
+-   requires the most gear; very exposed, but takes gear well.
 
 ### P6
 
--  40m, 5.6 
--  up arete and hit some heather/vegetation
--  mix of gear, bolts, and pins for pro
+-   40m, 5.6
+-   up arete and hit some heather/vegetation
+-   mix of gear, bolts, and pins for pro
 
-  
 ### Bail Options
--  TBD 
 
+-   TBD
 
 # Trip Plan
 
@@ -105,26 +102,24 @@ li > p:has(+ul) {
 
 ## Decision Points:
 
-- Drop packs where the walk-off descent meets the notch to the ledge?
-- How busy are the two routes - ragged edge vs true grit? Consider true grit for alternative 
-- **Turn around time: 3:30pm** 
-  - Current Sunrise: 6:02am
-  - Current sunset: 8:23 pm
+-   Drop packs where the walk-off descent meets the notch to the ledge?
+-   How busy are the two routes - ragged edge vs true grit? Consider true grit for alternative
+-   **Turn around time: 3:30pm**
+    -   Current Sunrise: 6:02am
+    -   Current sunset: 8:23 pm
 
 # Gear
 
-- #.5 - 1 (x2 each)
-- #.2 - .4, 2, 3  (x1 each)
-- set of small nuts (x1 each)
-- **note:** 1m =\~ 3.3ft
-
+-   #.5 - 1 (x2 each)
+-   #.2 - .4, 2, 3 (x1 each)
+-   set of small nuts (x1 each)
+-   **note:** 1m =\~ 3.3ft
 :::
 
 ::: {.column width="1%"}
 :::
 
 ::: {.column width="65%"}
-
 ```{r}
 #| fig-width: 6
 #| fig-asp: 0.618
@@ -164,5 +159,4 @@ knitr::include_graphics("assets/route.jpg")
 knitr::include_graphics("assets/route_nwhikers.jpg")
 ```
 :::
-
 :::

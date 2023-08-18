@@ -1,9 +1,13 @@
 ---
-title: "Vesper Peak"
-author: "Jenny Smith"
-date: "08/19/2023"
 format: 
-  pdf: default
+  revealjs: 
+    theme: [default, custom.scss]
+    width: 1200
+    height: 1400
+    fig-responsive: 
+    fig-asp: 0.618
+    fig-height: 4
+callout-appearance: simple
 execute: 
   echo: false
 knitr:
@@ -32,7 +36,7 @@ knitr:
 -   head west into the basin between Vesper (left) Sperry (right)
 -   keeping the basin/lake to your right and continue west \~0.5mi (281°) towards a "notch" that leads to vesper glacier.
 -   Once past the notch, look to the left for a ledge system to traverse to the climb start
-  - climb starts on the far right of the ledge, exposed scramble down and around a rock buttress  
+-   climb starts on the far right of the ledge, exposed scramble down and around a rock buttress
 
 # Pitches
 
@@ -47,6 +51,7 @@ knitr:
 ### P2
 
 -   25m, 5.7
+-   climb past 3 bolts; traverse right and up small gully
 -   fixed bolted anchor on skyline
 
 ### P3 **crux?**
@@ -67,9 +72,9 @@ knitr:
 -   Up past 2 bolts
 -   **\@2nd bolt** traverse 10-15m right
 -   requires the most gear; very exposed, but takes gear well.
--   shallow flared cracks, slabby exposure traverse, exposed belay station 
--   follower can climb down a step or two and back up; making a potential fall less dramatic. 
--   fixed bolted anchor 
+-   shallow flared cracks, slabby exposure traverse, exposed belay station
+-   follower can climb down a step or two and back up; making a potential fall less dramatic.
+-   fixed bolted anchor
 
 ### P6
 
@@ -80,22 +85,32 @@ knitr:
 ### Bail Options
 
 -   if stuck at 5th pitch, rappelling back down the way we came
--   venturing off route could be a challenge to bail from, especially if lichen and moss. 
+-   venturing off route could be a challenge to bail from, especially if lichen and moss.
 
 # Trip Plan
 
--   TH at 7am
+-   TH at 6:30am, walking at 7am
 -   Follow Sunrise mine TR \~5mi and 3,600' gain. Arrive at ledge (\~4 hrs, ETA 11am)
--   Navigate to vesper north face ledge at 5800' to set-up climb (\~30 min, ETA 11:30am)
--   Climb 210m (\~688') across 6 pitches to summit at 6214' (\~4 hrs, ETA 3:30pm)
--   Summit hangout \~ 15 min
--   **Descent:** Walk-off descent \~1 hr + trail to car \~2 hrs (ETA 6:45pm at cars)
+-   Navigate to vesper north face ledge at 5800' to set-up climb
+-   likely additional climbing parties to wait behind (\~1.5 hrs, ETA 12:30pm)
+-   Climb 210m (\~688') across 6 pitches to summit at 6214' (\~4 hrs, ETA 4:30pm)
+-   Summit hangout \~ 30 min
+-   **Descent:** Walk-off descent \~1 hr + trail to car \~2 hrs (ETA 8:00pm at cars)
 
+| Decision points                                                        | Gear                           |
+|------------------------------------------------------|------------------|
+| \- Drop packs where the walk-off descent meets the notch to the ledge? | \- Rock rack                   |
+| \- How busy are the two routes - ragged edge vs true grit?             | \- #.5 - 1 (x2 each)           |
+| \- **Turn around time: 3:30pm**                                        | \- #.2 - .4, 2, 3 (x1 each)    |
+| \- Current Sunrise: 6:02am                                             | \- set of small nuts (x1 each) |
+| \- Current sunset: 8:23 pm                                             | \- Rope (70m)                  |
 
+: {tbl-colwidths="\[65,35\]"}
+
+-   **note:** 1m =\~ 3.3ft
 :::
 
 ::: {.column width="2.5%"}
-
 :::
 
 ::: {.column width="65%"}
@@ -124,35 +139,18 @@ knitr::include_graphics("assets/approach_ledge2.jpg")
 #| fig-asp: 0.618
 #| fig-pos: 't'
 #| layout: "[ [105,50], [100] ]"
+#| fig-cap: 
+#|   - ""
+#|   - "5th pitch"
 
 knitr::include_graphics("assets/route_nwhikers.jpg")
 knitr::include_graphics("assets/fifth_pitch.jpg")
 knitr::include_graphics("assets/route.jpg")
 ```
-
-## Decision Points:
-
--   Drop packs where the walk-off descent meets the notch to the ledge?
--   How busy are the two routes - ragged edge vs true grit? Consider true grit for alternative
--   **Turn around time: 3:30pm**
-    -   Current Sunrise: 6:02am
-    -   Current sunset: 8:23 pm
-
-## Gear
-
--   Rock rack
-  - #.5 - 1 (x2 each)
-  -   #.2 - .4, 2, 3 (x1 each)
-  -   set of small nuts (x1 each)
--   Rope (70m)
--   **note:** 1m =\~ 3.3ft
-
 :::
 :::
 
 {{< pagebreak >}}
-
-
 
 ## Current Conditions (Aug 2023)
 
@@ -161,11 +159,16 @@ knitr::include_graphics("assets/route.jpg")
 -   No snow on the approach ledges; minimal snow elsewhere.
 -   Little snow was easily navigated in trail runners without traction or ice axes
 
-
-
 # Topo of Route
 
 ```{r}
 #| layout: "[75]"
 knitr::include_graphics("assets/caltopo_2.jpg")
+```
+
+```{css}
+code.sourceCode {
+  font-size: 1.3em;
+  /* or try font-size: xx-large; */
+}
 ```
