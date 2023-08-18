@@ -7,6 +7,7 @@
 
 # project specifc
 maps/
+*_files/
 *.gpx
 *.html
 *.pdf

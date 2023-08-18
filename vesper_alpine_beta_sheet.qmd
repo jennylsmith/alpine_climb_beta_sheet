@@ -101,7 +101,7 @@ knitr:
 |------------------------------------------------------|------------------|
 | \- Drop packs where the walk-off descent meets the notch to the ledge? | \- Rock rack                   |
 | \- How busy are the two routes - ragged edge vs true grit?             | \- #.5 - 1 (x2 each)           |
-| \- **Turn around time: 3:30pm**                                        | \- #.2 - .4, 2, 3 (x1 each)    |
+| \- **Turn around time: 5:30pm**                                        | \- #.2 - .4, 2, 3 (x1 each)    |
 | \- Current Sunrise: 6:02am                                             | \- set of small nuts (x1 each) |
 | \- Current sunset: 8:23 pm                                             | \- Rope (70m)                  |
 
