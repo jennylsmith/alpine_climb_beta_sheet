@@ -4,9 +4,9 @@ format:
     theme: [default, custom.scss]
     width: 1200
     height: 1400
-    fig-responsive: 
+    fig-responsive: false
     fig-asp: 0.618
-    fig-height: 4
+    fig-width: 2
 callout-appearance: simple
 execute: 
   echo: false
@@ -29,8 +29,8 @@ knitr:
 
 **Route:** Ragged Edge
 
--   follow sunrise mine trail (#707) SSE. Cross stillguamish river at 1.5mi
--   Follow tributary of river (climbers left) to headlee pass (4650', \~1.0mi)
+-   Follow sunrise mine trail (#707) SSE. Cross stillguamish river at 1.5mi
+-   Follow tributary of river on your left to headlee pass (4650', \~1.0mi)
 -   a bit tricky on boulder section before Headlee Pass
 -   arrow marked on a big rock
 -   head west into the basin between Vesper (left) Sperry (right)
