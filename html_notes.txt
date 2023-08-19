@@ -1,24 +1,24 @@
 html:
   theme: cosmo
-page-layout: article
-fontsize: 0.9em
-linestretch: 1.0
-embed-resources: true
-callout-appearance: simple
+  page-layout: article
+  fontsize: 0.9em
+  linestretch: 1.0
+  embed-resources: true
+  callout-appearance: simple
 
-  html:
-    theme: cosmo
-    page-layout: article
-    fontsize: 0.9em
-    linestretch: 1.0
-    embed-resources: true
+
 
 title: "Vesper Peak"
 author: "Jenny Smith"
 date: "08/19/2023"
 
-  pdf: default
+pdf: default
   
 # or try revealjs
 - fontsize
 - slide size
+*does NOT work without major modifications as far as I can tell*
+  revealjs: 
+    theme: [default, custom.scss]
+    width: 1050
+    height: 1050
